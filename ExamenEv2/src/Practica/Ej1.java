@@ -8,6 +8,13 @@ public class Ej1 {
 		
 		int numPieza = 0;
 		calcularValorTotalPoPieza(almacenes, precioPieza, numPieza);
+		calcularValorDeCadaPiezaPorAlmacen(almacenes,precioPieza);
+	}
+
+	private static void calcularValorDeCadaPiezaPorAlmacen(int[][] almacenes, double[] precioPieza) {
+		System.out.println("**********Valor de cada piexza por almacen**********");
+		
+		
 	}
 
 	private static void calcularValorTotalPoPieza(int[][] almacenes, double[] precioPieza, int numPieza) {
